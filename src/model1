@@ -1,4 +1,4 @@
-var mogoose = regire('mongoose')
+var mogoose = register('mongoose')
 	,Schema = mongoose.Schema
 	userSchema = new Schema( {
 		usename: String,
