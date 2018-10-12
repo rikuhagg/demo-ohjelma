@@ -1,0 +1,8 @@
+var mogoose = regire('mongoose')
+	,Schema = mongoose.Schema
+	userSchema = new Schema( {
+		usename: String,
+		password: String
+	})
+user = mongoose.model ('user', userSchema)
+module.exports = user
